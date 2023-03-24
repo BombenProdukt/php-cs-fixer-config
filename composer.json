@@ -1,0 +1,66 @@
+{
+    "name": "preemstudio/php-cs-fixer-config",
+    "description": "Provides a configuration factory and multiple rule sets for friendsofphp/php-cs-fixer.",
+    "keywords": [
+        "PreemStudio",
+        "laravel",
+        "php-cs-fixer-config"
+    ],
+    "homepage": "https://github.com/preemstudio/php-cs-fixer-config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@preem.studio",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/contracts": "^10.0",
+        "preemstudio/laravel-jetpack": "^1.0"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.2",
+        "friendsofphp/php-cs-fixer": "^3.15",
+        "infection/infection": "^0.26.19",
+        "laravel/pint": "^1.0",
+        "nunomaduro/collision": "^6.0",
+        "nunomaduro/larastan": "^2.0",
+        "orchestra/testbench": "^8.0",
+        "pestphp/pest": "^1.2",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "spatie/laravel-ray": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PreemStudio\\PhpCsFixer\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/php-cs-fixer fix"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true,
+            "ergebnis/composer-normalize": true,
+            "infection/extension-installer": true
+        },
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
