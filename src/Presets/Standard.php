@@ -77,9 +77,9 @@ final class Standard implements Preset
             'cast_spaces' => true,
             'class_attributes_separation' => [
                 'elements' => [
-                    'const' => 'only_if_meta',
+                    'const' => 'one',
                     'method' => 'one',
-                    'property' => 'only_if_meta',
+                    'property' => 'one',
                     'trait_import' => 'none',
                 ],
             ],
