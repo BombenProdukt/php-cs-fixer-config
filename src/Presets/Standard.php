@@ -19,9 +19,6 @@ final class Standard implements Preset
             ...(new Ordered())->rules(),
             ...(new PHPDoc())->rules(),
             ...(new PHPUnit())->rules(),
-            'align_multiline_comment' => [
-                'comment_type' => 'all_multiline',
-            ],
             'array_indentation' => true,
             'array_push' => true,
             'array_syntax' => ['syntax' => 'short'],
@@ -365,7 +362,7 @@ final class Standard implements Preset
             'standardize_increment' => true,
             'standardize_not_equals' => true,
             'statement_indentation' => true,
-            'static_lambda' => true,
+            'static_lambda' => false,
             'strict_comparison' => true,
             'strict_param' => true,
             'string_length_to_empty' => true,
