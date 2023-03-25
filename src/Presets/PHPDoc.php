@@ -119,9 +119,10 @@ final class PHPDoc implements Preset
             ],
             'phpdoc_to_comment' => false,
             'phpdoc_to_param_type' => false,
-            'phpdoc_to_property_type' => [
-                'scalar_types' => true,
-            ],
+            // Causes issues with Laravel because it doesn't support scalar types for everything.
+            // 'phpdoc_to_property_type' => [
+            //     'scalar_types' => true,
+            // ],
             'phpdoc_to_return_type' => false,
             'phpdoc_trim' => true,
             'phpdoc_trim_consecutive_blank_line_separation' => true,

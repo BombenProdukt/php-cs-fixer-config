@@ -12,31 +12,11 @@ use PreemStudio\PhpCsFixer\Contracts\Preset;
 final class ConfigurationFactory
 {
     protected static $notName = [
-        // These are auto-generated files and should not be modified.
         '_ide_helper_actions.php',
         '_ide_helper_models.php',
         '_ide_helper.php',
         '.phpstorm.meta.php',
         '*.blade.php',
-        // These are important files that should not be modified due to type conflicts.
-        'AppServiceProvider.php',
-        'Authenticate.php',
-        'AuthServiceProvider.php',
-        'BroadcastServiceProvider.php',
-        'EncryptCookies.php',
-        'EventServiceProvider.php',
-        'FortifyServiceProvider.php',
-        'Handler.php',
-        'JetstreamServiceProvider.php',
-        'Kernel.php',
-        'PreventRequestsDuringMaintenance.php',
-        'RedirectIfAuthenticated.php',
-        'RouteServiceProvider.php',
-        'TrimStrings.php',
-        'TrustHosts.php',
-        'TrustProxies.php',
-        'ValidateSignature.php',
-        'VerifyCsrfToken.php',
     ];
 
     protected static $exclude = [
