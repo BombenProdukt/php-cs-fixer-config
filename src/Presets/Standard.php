@@ -10,13 +10,12 @@ final class Standard implements Preset
 {
     public function name(): string
     {
-        return 'PreemStudio (PHP 8.2)';
+        return 'Standard (PHP 8.2)';
     }
 
     public function rules(): array
     {
         return [
-            ...(new Doctrine())->rules(),
             ...(new Ordered())->rules(),
             ...(new PHPDoc())->rules(),
             ...(new PHPUnit())->rules(),
