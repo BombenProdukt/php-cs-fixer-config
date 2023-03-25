@@ -35,7 +35,7 @@ final class PHPUnit implements Preset
                 ],
             ],
             'php_unit_method_casing' => [
-                'case' => 'camel_case',
+                'case' => 'snake_case',
             ],
             'php_unit_mock' => [
                 'target' => 'newest',
