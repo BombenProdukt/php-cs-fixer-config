@@ -142,7 +142,7 @@ final class Standard implements Preset
                 ],
                 'consider_absent_docblock_as_internal_class' => false,
             ],
-            'final_public_method_for_abstract_class' => true,
+            'final_public_method_for_abstract_class' => false,
             'fopen_flag_order' => true,
             'fopen_flags' => ['b_mode' => true],
             'full_opening_tag' => true,

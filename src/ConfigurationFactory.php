@@ -18,7 +18,6 @@ final class ConfigurationFactory
         '.phpstorm.meta.php',
         '*.blade.php',
     ];
-
     protected static $exclude = [
         'bootstrap/cache',
         'build',
