@@ -8,7 +8,6 @@ use PhpCsFixer\Config;
 use PhpCsFixer\ConfigInterface;
 use PhpCsFixer\Finder;
 use PreemStudio\PhpCsFixer\Contracts\Preset;
-use PreemStudio\PhpCsFixer\Fixers\VariableCaseFixer;
 
 final class ConfigurationFactory
 {
@@ -49,10 +48,7 @@ final class ConfigurationFactory
             ->setFinder(self::finder())
             ->setRules(\array_merge($preset->rules(), $overrideRules))
             ->setRiskyAllowed(true)
-            ->setUsingCache(true)
-            ->registerCustomFixers([
-                new VariableCaseFixer(),
-            ]);
+            ->setUsingCache(true);
     }
 
     public static function finder(): Finder
