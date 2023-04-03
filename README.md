@@ -43,7 +43,14 @@ $ composer require preemstudio/php-cs-fixer-config
 use PreemStudio\PhpCsFixer\ConfigurationFactory;
 use PreemStudio\PhpCsFixer\Presets\Standard;
 
-$config = ConfigurationFactory::fromPreset(new Standard());
+$header = <<<EOF
+Copyright (c) 2023 Preem Studio
+
+For the full copyright and license information, please view
+the LICENSE file that was distributed with this source code.
+EOF;
+
+$config = ConfigurationFactory::fromPreset(new Standard($header));
 $config->getFinder()->in(__DIR__);
 
 return $config;

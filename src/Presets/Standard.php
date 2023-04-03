@@ -8,6 +8,11 @@ use PreemStudio\PhpCsFixer\Contracts\Preset;
 
 final class Standard implements Preset
 {
+    public function __construct(private readonly ?string $header = null)
+    {
+        //
+    }
+
     public function name(): string
     {
         return 'Standard (PHP 8.2)';
@@ -15,7 +20,7 @@ final class Standard implements Preset
 
     public function rules(): array
     {
-        return [
+        $rules = [
             ...(new Ordered())->rules(),
             ...(new PHPDoc())->rules(),
             ...(new PHPUnit())->rules(),
@@ -389,6 +394,17 @@ final class Standard implements Preset
             'void_return' => true,
             'whitespace_after_comma_in_array' => true,
         ];
+
+        if (\is_string($this->header)) {
+            $rules['header_comment'] = [
+                'comment_type' => 'PHPDoc',
+                'header' => \trim($this->header),
+                'location' => 'after_declare_strict',
+                'separate' => 'both',
+            ];
+        }
+
+        return $rules;
     }
 
     public function targetPhpVersion(): int
