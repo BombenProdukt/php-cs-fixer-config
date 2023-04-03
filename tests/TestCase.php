@@ -4,15 +4,12 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use PreemStudio\Jetpack\TestBench\AbstractPackageTestCase;
+use PreemStudio\Jetpack\TestBench\AbstractTestCase;
 
 /**
  * @internal
  */
-abstract class TestCase extends AbstractPackageTestCase
+abstract class TestCase extends AbstractTestCase
 {
-    protected function getServiceProviderClass(): string
-    {
-        return \PreemStudio\PhpCsFixer\ServiceProvider::class;
-    }
+    //
 }
