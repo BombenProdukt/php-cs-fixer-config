@@ -1,0 +1,26 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Property PreemStudio\\\\PhpCsFixer\\\\ConfigurationFactory\\:\\:\\$exclude has no type specified\\.$#"
+			count: 1
+			path: src/ConfigurationFactory.php
+
+		-
+			message: "#^Property PreemStudio\\\\PhpCsFixer\\\\ConfigurationFactory\\:\\:\\$notName has no type specified\\.$#"
+			count: 1
+			path: src/ConfigurationFactory.php
+
+		-
+			message: "#^Cannot call method getContent\\(\\) on PhpCsFixer\\\\Tokenizer\\\\Token\\|null\\.$#"
+			count: 1
+			path: src/Fixers/VariableCaseFixer.php
+
+		-
+			message: "#^Cannot call method getId\\(\\) on PhpCsFixer\\\\Tokenizer\\\\Token\\|null\\.$#"
+			count: 3
+			path: src/Fixers/VariableCaseFixer.php
+
+		-
+			message: "#^Offset 'case' does not exist on array\\<string, mixed\\>\\|null\\.$#"
+			count: 1
+			path: src/Fixers/VariableCaseFixer.php
