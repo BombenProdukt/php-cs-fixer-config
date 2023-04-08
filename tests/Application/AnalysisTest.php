@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Tests\Application;
 
-use PreemStudio\Jetpack\TestBench\AbstractAnalysisTestCase;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
  *
  * @coversNothing
  */
-final class AnalysisTest extends AbstractAnalysisTestCase
+final class AnalysisTest extends TestCase
 {
 }
