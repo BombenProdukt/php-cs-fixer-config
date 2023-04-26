@@ -11,16 +11,56 @@ parameters:
 			path: src/ConfigurationFactory.php
 
 		-
+			message: "#^Cannot assign offset int\\|null to PhpCsFixer\\\\Tokenizer\\\\Tokens\\.$#"
+			count: 1
+			path: src/Fixer/AbstractNameFixer.php
+
+		-
+			message: "#^Cannot call method isGivenKind\\(\\) on PhpCsFixer\\\\Tokenizer\\\\Token\\|null\\.$#"
+			count: 1
+			path: src/Fixer/AbstractNameFixer.php
+
+		-
+			message: "#^Cannot assign offset int\\|null to PhpCsFixer\\\\Tokenizer\\\\Tokens\\.$#"
+			count: 1
+			path: src/Fixer/ExceptionNameFixer.php
+
+		-
+			message: "#^Cannot call method isGivenKind\\(\\) on PhpCsFixer\\\\Tokenizer\\\\Token\\|null\\.$#"
+			count: 1
+			path: src/Fixer/ExceptionNameFixer.php
+
+		-
+			message: "#^Cannot assign offset int\\|null to PhpCsFixer\\\\Tokenizer\\\\Tokens\\.$#"
+			count: 1
+			path: src/Fixer/InterfaceNameFixer.php
+
+		-
+			message: "#^Cannot call method isGivenKind\\(\\) on PhpCsFixer\\\\Tokenizer\\\\Token\\|null\\.$#"
+			count: 1
+			path: src/Fixer/InterfaceNameFixer.php
+
+		-
+			message: "#^Cannot assign offset int\\|null to PhpCsFixer\\\\Tokenizer\\\\Tokens\\.$#"
+			count: 1
+			path: src/Fixer/TraitNameFixer.php
+
+		-
+			message: "#^Cannot call method isGivenKind\\(\\) on PhpCsFixer\\\\Tokenizer\\\\Token\\|null\\.$#"
+			count: 1
+			path: src/Fixer/TraitNameFixer.php
+
+		-
 			message: "#^Cannot call method getContent\\(\\) on PhpCsFixer\\\\Tokenizer\\\\Token\\|null\\.$#"
 			count: 1
-			path: src/Fixers/VariableCaseFixer.php
+			path: src/Fixer/VariableCaseFixer.php
 
 		-
 			message: "#^Cannot call method getId\\(\\) on PhpCsFixer\\\\Tokenizer\\\\Token\\|null\\.$#"
 			count: 3
-			path: src/Fixers/VariableCaseFixer.php
+			path: src/Fixer/VariableCaseFixer.php
 
 		-
 			message: "#^Offset 'case' does not exist on array\\<string, mixed\\>\\|null\\.$#"
 			count: 1
-			path: src/Fixers/VariableCaseFixer.php
+			path: src/Fixer/VariableCaseFixer.php
