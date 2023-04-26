@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace BombenProdukt\PhpCsFixer;
 
+use BombenProdukt\PhpCsFixer\Preset\PresetInterface;
 use PhpCsFixer\Config;
 use PhpCsFixer\ConfigInterface;
 use PhpCsFixer\Finder;
-use BombenProdukt\PhpCsFixer\Preset\PresetInterface;
 
 final class ConfigurationFactory
 {
