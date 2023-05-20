@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## [1.1.4] - 2023-05-20
+
 ## [1.1.3] - 2023-05-20
 ### Added
 - enable `single_line_empty_body` rule
@@ -27,7 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.0.0 - 2023-04-26
 
-[Unreleased]: https://github.com/BombenProdukt/:package_slug/compare/1.1.3...HEAD
+[Unreleased]: https://github.com/BombenProdukt/:package_slug/compare/1.1.4...HEAD
+[1.1.4]: https://github.com/BombenProdukt/:package_slug/compare/1.1.3...1.1.4
 [1.1.3]: https://github.com/BombenProdukt/:package_slug/compare/1.1.2...1.1.3
 [1.1.2]: https://github.com/BombenProdukt/:package_slug/compare/1.1.1...1.1.2
 [1.1.1]: https://github.com/BombenProdukt/:package_slug/compare/1.1.0...1.1.1
