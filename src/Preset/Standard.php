@@ -355,6 +355,7 @@ final class Standard implements PresetInterface
             'single_line_comment_style' => [
                 'comment_types' => ['hash'],
             ],
+            'single_line_empty_body' => true,
             'single_line_throw' => false,
             'single_quote' => true,
             'single_space_after_construct' => true,
