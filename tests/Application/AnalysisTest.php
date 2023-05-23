@@ -11,6 +11,4 @@ use PHPUnit\Framework\TestCase;
  *
  * @coversNothing
  */
-final class AnalysisTest extends TestCase
-{
-}
+final class AnalysisTest extends TestCase {}
