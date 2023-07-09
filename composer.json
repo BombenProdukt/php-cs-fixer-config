@@ -14,7 +14,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/BombenProdukt/php-cs-fixer-config",
+    "homepage": "https://github.com/faustbrian/php-cs-fixer-config",
     "require": {
         "php": "^8.2",
         "illuminate/contracts": "^10.0"
