@@ -1,24 +1,3 @@
-<p align="center">
-    <a href="https://bombenprodukt.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/faustbrian/assets/main/logo-text.svg" width="128" alt="BombenProdukt Logo" />
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/faustbrian/php-cs-fixer-config/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/php-cs-fixer-config" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/php-cs-fixer-config">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/php-cs-fixer-config" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/php-cs-fixer-config">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/php-cs-fixer-config" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/php-cs-fixer-config">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/php-cs-fixer-config" alt="License" />
-    </a>
-</p>
-
 ## About PHP-CS-Fixer Configuration
 
 This project was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and is a package that provides a configuration factory and multiple presets for `friendsofphp/php-cs-fixer`. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
