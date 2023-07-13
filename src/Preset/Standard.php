@@ -313,6 +313,7 @@ final class Standard implements PresetInterface
             'normalize_index_brace' => true,
             'not_operator_with_space' => false,
             'not_operator_with_successor_space' => false,
+            'nullable_type_declaration' => true,
             'nullable_type_declaration_for_default_null_value' => [
                 'use_nullable_type_declaration' => true,
             ],
@@ -385,6 +386,7 @@ final class Standard implements PresetInterface
                 ],
             ],
             'trim_array_spaces' => true,
+            'type_declaration_spaces' => true,
             'types_spaces' => true,
             'unary_operator_spaces' => true,
             'visibility_required' => true,
