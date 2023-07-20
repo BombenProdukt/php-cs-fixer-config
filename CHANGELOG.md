@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+<a name="1.3.0"></a>
+## [1.3.0] - 2023-07-20
+### Removed
+- Deprecated `function_typehint_space` rule
+
+
 <a name="1.2.0"></a>
 ## [1.2.0] - 2023-07-13
 ### Added
@@ -33,7 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <a name="1.0.0"></a>
 ## 1.0.0 - 2023-04-26
 
-[Unreleased]: https://github.com/faustbrian/:package_slug/compare/1.2.0...HEAD
+[Unreleased]: https://github.com/faustbrian/:package_slug/compare/1.3.0...HEAD
+[1.3.0]: https://github.com/faustbrian/:package_slug/compare/1.2.0...1.3.0
 [1.2.0]: https://github.com/faustbrian/:package_slug/compare/1.1.4...1.2.0
 [1.1.4]: https://github.com/faustbrian/:package_slug/compare/1.1.3...1.1.4
 [1.1.3]: https://github.com/faustbrian/:package_slug/compare/1.1.2...1.1.3
