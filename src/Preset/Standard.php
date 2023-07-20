@@ -158,7 +158,6 @@ final class Standard implements PresetInterface
                     'pi',
                 ],
             ],
-            'function_typehint_space' => true,
             'general_phpdoc_annotation_remove' => false,
             'general_phpdoc_tag_rename' => true,
             'get_class_to_class_keyword' => true,
