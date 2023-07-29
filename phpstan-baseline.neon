@@ -64,3 +64,8 @@ parameters:
 			message: "#^Offset 'case' does not exist on array\\<string, mixed\\>\\|null\\.$#"
 			count: 1
 			path: src/Fixer/VariableCaseFixer.php
+
+		-
+			message: "#^Variable static method call on Illuminate\\\\Support\\\\Str\\.$#"
+			count: 1
+			path: src/Fixer/VariableCaseFixer.php
