@@ -332,6 +332,7 @@ final class Standard implements PresetInterface
             ],
             'regular_callable_call' => true,
             'return_assignment' => true,
+            'return_to_yield_from' => true,
             'return_type_declaration' => ['space_before' => 'none'],
             'self_accessor' => true,
             'self_static_accessor' => true,
